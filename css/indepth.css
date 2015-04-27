@@ -77,6 +77,30 @@
 	width: 100%;
 	background: #0a0a0a;
 	height: 100%;
+	display: table;
+}
+
+.indepth_juan_container{
+	
+}
+
+.indepth_juan_img{
+	display: table;
+	height: 130px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.indepth_juan_img img{
+	height: 100%;
+}
+
+.indepth_juan_text{
+	color: white;
+	width: 96%;
+	max-width: 430px;
+	margin: auto;
+	text-align: center;
 }
 
 

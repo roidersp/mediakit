@@ -108,11 +108,10 @@
 }
 
 #indepth_visitantes{
-	background-image: url(../images/Portada/Visitantes.jpg);
+	background-image: url(../images/Portada/Visitantes.jpg) , url(../images/Portada/Gradiente.jpg);
 	background-position: center center;
-	background-size: auto 100%;
-	background-color: #0a0a0a;
-	background-repeat: no-repeat;
+	background-size: auto 100%, auto 100%; ;
+	background-repeat: no-repeat,repeat;
 }
 
 .indepth_juan_text{

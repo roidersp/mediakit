@@ -71,6 +71,8 @@
 #indepth_juanes{
 	width: 100%;
 	height: 100%;
+	font-family: 'Roboto Condensed';
+	font-size: 16px;
 }
 
 .indepth_juanes_section{
@@ -108,7 +110,7 @@
 #indepth_visitantes{
 	background-image: url(../images/Portada/Visitantes.jpg);
 	background-position: center center;
-	background-size: cover;
+	background-size: auto 100%;
 	background-color: #0a0a0a;
 	background-repeat: no-repeat;
 }
@@ -119,6 +121,8 @@
 	max-width: 430px;
 	margin: auto;
 	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 
@@ -555,17 +559,10 @@ color: #878787;
 /*** Movil ****/
 
 @media screen and (max-width:1023px) {
-	body{
-		width: 100%;
-		min-width: 0px;
-	}
-	
-	.indepth_break .indepth_text_container{
-		height: 100%; /* */
-		display: table;
-		background-color: rgba(149, 149, 149, 0.4);
-	padding: 0 30px;
-}
+	#indepth_visitantes{
+		background-size: cover;
+	}	
+
 }
 
 @media screen and (max-width: 800px) {

@@ -125,6 +125,57 @@
 }
 
 
+.indepth_balls_container{
+	display: table;
+	margin: 40px auto;
+}
+
+
+.indepth_chart {
+  position: relative;
+  display: inline-block;
+  width: 146px;
+  height: 276px;
+  text-align: center;
+  margin:auto 55px;
+  font-weight:bold;
+}
+.indepth_chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.indepth_chart_img{
+	width: 142px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.indepth_chart_img img{
+	width: 100%;
+}
+
+.percent {
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  font-size: 100px;
+  font-family: 'Roboto Condensed';
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+
+
  #indepth_ver_texto{
 	display: inline-block;
 	padding: 3px 15px;

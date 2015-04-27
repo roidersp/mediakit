@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
 
 #nav-bar-wrapper{
 	display: none;
@@ -124,6 +125,69 @@
 	text-transform: uppercase;
 }
 
+.indepth_numero_title{
+	font-family: 'Abel';
+	text-align: center;
+	font-size: 34px;
+	color: #19262b;
+	text-transform: uppercase;
+	font-weight: 300;
+	display: inline-block;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.indepth_mes_numeros{
+	font-size: 'Abel';
+	text-align: center;
+	font-size: 42px;
+	color: #19262b;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.indepth_numeros_juan{
+	max-width: 500px;
+	margin: 60px auto;
+	width: 100%;
+	display: table;
+	position: relative;
+}
+
+.indepth_numeros_juan_side{
+	font-family: 'Roboto Condensed';
+	font-size: 18px;
+	color: #19262b;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.indepth_numeros_juan_side span{
+	font-size: 52px;
+}
+
+.indepth_numeros_juan_side.izq{
+	float: left;
+}
+
+.indepth_numeros_juan_side,der{
+	float: right;
+}
+
+.indepth_numeros_juan_sep{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	height: 100%;
+}
+
+.indepth_numeros_juan_sep div{
+	width: 1px;
+	height: 100%;
+	background: black;
+	margin: auto;
+}
 
 .indepth_balls_container{
 	display: table;
@@ -163,17 +227,14 @@
   z-index: 2;
   position: absolute;
   bottom: 0px;
-  font-size: 100px;
+  font-size: 90px;
   font-family: 'Roboto Condensed';
   width: 100%;
   left: 0;
   text-align: center;
+  font-weight: 400;
 }
-.percent:after {
-  content: '%';
-  margin-left: 0.1em;
-  font-size: .8em;
-}
+
 
 
  #indepth_ver_texto{

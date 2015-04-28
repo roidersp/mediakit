@@ -125,6 +125,11 @@
 	text-transform: uppercase;
 }
 
+#indepth_page2{
+	padding: 60px 0;
+}
+
+
 .indepth_numero_title{
 	font-family: 'Abel';
 	text-align: center;
@@ -236,6 +241,208 @@
 }
 
 
+.indepth_dispositivos_cont{
+	width: 1010px;
+	margin: 40px auto;
+	height: 475px;
+	
+}
+
+.indepth_dispositivo{
+	margin: 0 15px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+.indepth_dispositivo img{
+	width: 100%;
+}
+
+
+
+.indepth_dispositivo_img{
+	position: absolute;
+	bottom: 0px;
+}
+
+.indepth_dispositivo_datos{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.indepth_dispositivo_circulo{
+	background-color: #97ca0e;
+	border-radius: 50%;
+	color: white;
+	line-height: 130px;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Roboto Condensed';
+	font-weight: 300;
+	margin: auto;
+}
+
+
+
+.indepth_dispositivo_linea{
+	background-color: #97ca0e;
+	width: 2px;
+	margin: auto;
+	min-height: 20px;
+}
+
+.indepth_dispositivo_cir_pequeno{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: auto;
+	background-color: #97ca0e;
+}
+
+.indepth_dispositivo.movil{
+	width: 81px;
+}
+
+
+.indepth_dispositivo.movil .indepth_dispositivo_circulo{
+	width: 130px;
+	height: 130px;
+	transform: translate(-25.5px, 0px);
+}
+
+.indepth_dispositivo.movil .indepth_dispositivo_linea{
+	height: 130px;
+}
+
+.indepth_dispositivo.laptop{
+	width: 515px;
+}
+
+.indepth_dispositivo.laptop .indepth_dispositivo_circulo{
+	width: 94px;
+	height: 94px;
+	line-height: 94px;
+	margin-top: 15px;
+}
+
+.indepth_dispositivo.laptop .indepth_dispositivo_linea{
+	height: 25px;
+}
+
+.indepth_dispositivo.tablet{
+	width: 302px;
+}
+
+.indepth_dispositivo.tablet .indepth_dispositivo_circulo{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 35px;
+	
+}
+
+.indepth_dispositivo.tablet .indepth_dispositivo_linea{
+	height: 130px;
+}
+
+
+.indepth_grafica_usuario{
+	max-width: 620px;
+	width: 96%;
+	margin: 50px auto;
+	
+}
+
+.indepth_grafica_usuario img{
+	width: 100%;
+}
+
+.indepth_genero_cont{
+	width: 670px;
+	display: table;
+	margin:40px auto;
+	border-top: 1px solid #f1f1f1;
+	
+}
+
+.indepth_genero{
+	width: 280px;
+	height: 182px;
+	line-height: 182px;
+	font-size: 44px;
+	
+	background-repeat: no-repeat;
+}
+
+.indepth_genero.femenino{
+	text-align: left;
+	background-image: url(../images/MisNumeros/Mujeres.png);
+	background-position: right center;
+	float: left;
+}
+
+.indepth_genero.masculino{
+	text-align: right;
+	background-image: url(../images/MisNumeros/Hombres.png);
+	background-position: left center;
+	float: right;
+}
+
+.indepth_redes_container{
+	display: table;
+	margin: 60px auto;
+}
+
+.indepth_redes_item{
+	float: left;
+	margin:0 60px;
+}
+
+.indepth_redes_img{
+	width: 135px;
+	height: 135px;
+	
+}
+
+.indepth_redes_img img{
+	width: 100%;
+}
+
+.indepth_redes_text{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 50px;
+}
+
+
+.indepth_juanfluencers_content{
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/Juanfluencers/pixel.png);
+	background-repeat: repeat;
+	
+}
+
+.indepth_juanfluencers_red{
+	width: 100%;
+	height: 500px;
+	background-position: center center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.indepth_juanfluencers_red.arriba{
+	background-image:  url(../images/Juanfluencers/red_arriba.png);
+}
+
+.indepth_juanfluencers_red.abajo{
+	background-image: url(../images/Juanfluencers/red_abajo.png);
+	background-position: center top;
+	height: 320px;
+}
 
  #indepth_ver_texto{
 	display: inline-block;

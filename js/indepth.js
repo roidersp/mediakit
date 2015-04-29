@@ -1,5 +1,7 @@
 
 var ventana_alto = $(window).height();
+var w=$(window).width();
+var h=$(window).height();
 
 $("#indepth_juanes").css("height",ventana_alto+"px");
 
@@ -10,6 +12,31 @@ $(document).ready(function() {
 	    scrollOverflow: true
     });
 });
+
+
+var zoom = function(jornada, x, y, num){
+	var total_w;
+	if(w>h){
+		x=(x*w)/1920;
+		y=(y*w)/1920;
+	}else{
+		x=(x*(w*2))/1920;
+		y=(y*(w*2))/1920;
+	}
+	
+	
+	
+	
+	$("#indepth_gif_"+jornada).css({
+		"bottom": x,
+		"left": y
+	});
+}
+
+
+
+//zoom("1", 228, 270, "1");
+
 
 
 window.onload = function() {

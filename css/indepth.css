@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
+body{
+	overflow: hidden;
+}
 
 #nav-bar-wrapper{
 	display: none;
@@ -422,7 +425,29 @@
 	height: 300px;
 	background-image: url(../images/Juanfluencers/pixel.png);
 	background-repeat: repeat;
-	
+	color: white;
+	font-family: 'Abel';
+	font-size: 18px;
+	display: table;
+}
+
+.indepth_juanfluncers_container{
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.indepth_juanfluencers_title{
+	font-size: 32px;
+	max-width: 440px;
+		text-align: center;
+		text-transform: uppercase;
+}
+
+.indepth_juanfluencers_text{
+		max-width: 440px;
+		text-align: center;
+		margin: auto;
 }
 
 .indepth_juanfluencers_red{
@@ -449,7 +474,6 @@
 .indepth_gif_cont{
 	width: 1370px;
 	height: 100%;
-	background-color: rgba(0, 255, 255, 0.1);
 	margin: auto;
 	position: relative;
 }
@@ -495,6 +519,260 @@
 #indepth_gif_7{
 	right:  0;
 	bottom: 170px;
+}
+
+
+.indepth_numero_text{
+	text-align: center;
+	font-size: 16px;
+	color: #6d6d6d;
+}
+
+.indepth_lab_cont{
+	display: table;
+	margin: 40px auto;
+	
+}
+
+.indepth_lab_item{
+	width: 126px;
+	margin: 20px 15px;
+	float: left;
+}
+
+.indepth_lab_img, .indepth_lab_img img{
+	width: 100%;
+}
+
+.indepth_lab_text{
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.indepth_formato_cont{
+	max-width: 800px;
+	width: 98%;
+	display: table;
+	margin: 40px auto;
+}
+
+.indepth_formato_item{
+	width: 100%;
+	height: 188px;
+	border-top: 1px solid #eeeeee;
+	position: relative;
+}
+
+
+.indepth_formato_img{
+	width: 216px;
+	cursor: pointer;
+	height: 100%;
+	float: left;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#indepth_formato_item_1 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/FeaturedJuan.png);
+}
+
+#indepth_formato_item_1 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/FeaturedJuan_hover.png);
+}
+
+#indepth_formato_item_2 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Billboard.png);
+}
+
+#indepth_formato_item_2 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Billboard_hover.png);
+}
+
+#indepth_formato_item_3 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Listicle.png);
+}
+
+#indepth_formato_item_3 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Listicle_hover.png);
+}
+
+#indepth_formato_item_4 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Infografia.png);
+}
+
+#indepth_formato_item_4 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Infografia_hover.png);
+}
+
+#indepth_formato_item_5 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/LoQuiero.png);
+}
+
+#indepth_formato_item_5 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/LoQuiero_hover.png);
+}
+
+#indepth_formato_item_6 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Slider.png);
+}
+
+#indepth_formato_item_6 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Slider_hover.png);
+}
+
+#indepth_formato_item_7 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Rubik.png);
+}
+
+#indepth_formato_item_7 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Rubik_hover.png);
+}
+
+#indepth_formato_item_8 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Splash.png);
+}
+
+#indepth_formato_item_8 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Splash_hover.png);
+}
+
+#indepth_formato_item_9 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Indepth.png);
+}
+
+#indepth_formato_item_9 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Indepth_hover.png);
+}
+
+#indepth_formato_item_10 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Native.png);
+}
+
+#indepth_formato_item_10 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Native_hover.png);
+}
+
+#indepth_formato_item_11 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Postal.png);
+}
+
+#indepth_formato_item_11 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Postal_hover.png);
+}
+
+#indepth_formato_item_12 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Tradicional.png);
+}
+
+#indepth_formato_item_12 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Tradicional_hover.png);
+}
+
+#indepth_formato_item_13 .indepth_formato_img {
+	background-image: url(../images/Formatos/Iconos/Juanpartner.png);
+}
+
+#indepth_formato_item_13 .indepth_formato_img:hover{
+	background-image: url(../images/Formatos/Iconos/Juanpartner_hover.png);
+}
+
+.indepth_text_cont{
+	height: 100%;
+	display: table;
+	padding-right: 25px;
+	padding-right: 25px;
+}
+
+.indepth_text_cont_in{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.indepth_fotmato_title{
+	font-family: 'Roboto Condensed';
+	font-size: 22px;
+	color: #3f3f3f;
+	margin-bottom: 10px;
+}
+
+
+.indepth_formato_medidas{
+	font-family: 'Roboto Condensed';
+	font-size: 16px;
+	font-style: italic;
+	color: #808183;
+	margin-bottom: 20px;
+}
+
+.indepth_formato_texto{
+	font-family: 'Roboto Condensed';
+	font-size: 16px;
+	color: #c1c3c6;
+}
+
+.indepth_icon_ver{
+	position: absolute;
+	width: 27px;
+	height: 17px;
+	background-image: url(../images/Formatos/VerEjemplo.png);
+	top: 50px;
+	right: 0;
+	cursor: pointer;
+}
+
+.indepth_icon_ver:hover{
+	background-image: url(../images/Formatos/VerEjemplo_hover.png);
+}
+
+
+.indepth_formato_modal{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.41);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+	
+}
+
+.indepth_formato_img_cont{
+	display: none;
+	vertical-align: middle;
+		overflow-y: scroll;
+		position: relative;
+
+	
+}
+
+.indepth_formato_modal_img_h{
+	height: 90%;
+}
+
+.indepth_formato_modal_img{
+	text-align: center;
+	max-width: 90%;
+	display: table;
+	margin: auto;
+	max-height: 90%;
+}
+
+.indepth_formato_img_cont.h .indepth_formato_modal_img{
+	display: block;
+}
+
+.indepth_formato_img_cont.w .indepth_formato_modal_img img{
+	width: 100%;
+} 
+
+.indepth_formato_img_cont.h .indepth_formato_modal_img img{
+	height: 100%;
+	width: auto;
 }
 
 

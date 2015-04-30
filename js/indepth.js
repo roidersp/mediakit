@@ -2,14 +2,40 @@
 var ventana_alto = $(window).height();
 var w=$(window).width();
 var h=$(window).height();
+var r=0;
 
 $("#indepth_juanes").css("height",ventana_alto+"px");
+$(".indepth_formato_modal").css("height",ventana_alto+"px")
+//$(".indepth_formato_modal").css("width",w+"px")
+$(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(ventana_alto*.99)+"px");
+
+
+
+$(document).on("click",".indepth_formato_item",function(){
+	r=$(this).attr("num");
+	
+	$(".indepth_formato_img_cont").css("display","none");
+	$(".indepth_formato_modal").css("display","table");
+	
+	
+	
+	
+	$("#indepth_fomato_"+r).css("display","table-cell");
+});
+
+
+$(document).on("click",".indepth_formato_modal",function(){
+	$(".indepth_formato_modal").css("display","none");
+});
+
 
 
 $(document).ready(function() {
     $('#indepth_juanes').fullpage({
 	    menu: true,
-	    scrollOverflow: true
+	    scrollOverflow: true,
+	    normalScrollElements: '.indepth_formato_img_cont, .indepth_formato_modal',
+	    scrollbar: true
     });
 });
 

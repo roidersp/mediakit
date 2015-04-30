@@ -1,13 +1,11 @@
 
-var ventana_alto = $(window).height();
 var w=$(window).width();
 var h=$(window).height();
 var r=0;
 
-$("#indepth_juanes").css("height",ventana_alto+"px");
-$(".indepth_formato_modal").css("height",ventana_alto+"px")
-//$(".indepth_formato_modal").css("width",w+"px")
-$(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(ventana_alto*.99)+"px");
+$("#indepth_juanes").css("height",h+"px");
+$(".indepth_formato_modal").css("height",h+"px")
+$(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(h*.99)+"px");
 
 
 
@@ -112,11 +110,13 @@ window.onload = function() {
     });
 	}
 
-/*$('#indepth_juanes').onepage_scroll({
-	 loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-   keyboard: true,                  // You can activate the keyboard controls
-   responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
-                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
-                                    // the browser's width is less than 600, the fallback will kick in.
-   direction: "vertical"
-});*/
+
+$(window).on("resize", function(){
+	 w=$(window).width();
+	 h=$(window).height();
+	 $("#indepth_juanes").css("height",h+"px");
+$(".indepth_formato_modal").css("height",h+"px")
+$(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(h*.99)+"px");
+});
+
+

@@ -6,6 +6,7 @@
 		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700" rel="stylesheet" type="text/css">
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://juanfutbol.com/js/juanfutbol/waypoints.min.js?v=1.6.88"></script>
 		<link rel="stylesheet" href="http://juanfutbol.com/css/juan/default.css?v=1.1" />
 		
 		
@@ -23,18 +24,27 @@
 			}  
 			
 
-
 		</style>
 		
 	</head>
 	<body>
-		<link type="text/css" rel="stylesheet" href="css/indepth.css?v=1.0.5"/>
+		<link type="text/css" rel="stylesheet" href="css/indepth.css?v=1.0.6"/>
 		<link rel="stylesheet" href="css/jquery.fullPage.css"/>
 		<div class="indepth_pages">
+			<ul id="myMenu">
+			    <li data-menuanchor="quien-soy" ><a href="#1"><div id="indepth_quien" class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">¿Quién soy?</div></div></a></li>
+			    <li data-menuanchor="mis-visitantes" ><a href="#10"><div class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">Mis visitantes</div></div></a></li>
+			    <li data-menuanchor="indepth-numeros" ><a href="#11"><div class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">Mis números</div></div></a></li>
+			    <li data-menuanchor="indepth-juan-lab" ><a href="#12"><div class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">Juanfluencers</div></div></a></li>
+			    <li data-menuanchor="indepth-formatos" ><a href="#13"><div class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">Formatos</div></div></a></li>
+			    <li data-menuanchor="indepth-influencers" ><a href="#14"><div class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">Showroom</div></div></a></li>
+			    <li data-menuanchor="indepth-showroom" ><a href="#15"><div class="indepth_menu_ball"></div><div class="indepth_menu_bar_cont"><div class="indepth_indepth_menu_bar">Juanifícate</div></div></a></li>
+			</ul>
+			
+
 			
 			<div id="indepth_page1" class="indepth_page indepth_page_content">
-					<div id="indepth_juanes">
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/1.png" alt="1"></div>
 								<div class="indepth_juan_text">Futbolero desde la cuna.
@@ -43,7 +53,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="section indepth_juanes_section" >
+						<div class="section indepth_juanes_section" data-anchor="quien-soy2">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/2.png" alt="1"></div>
 								<div class="indepth_juan_text">Desde entonces, he contado las mejores historias,
@@ -52,7 +62,7 @@ y vivido los más grandes sucesos deportivos.</div>
 							</div>
 							
 						</div>
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy3">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/3.png" alt="1"></div>
 								<div class="indepth_juan_text">
@@ -61,7 +71,7 @@ Siempre pensaré que no era penal.
 								</div>
 							</div>
 						</div>
-						<div class="section indepth_juanes_section" >
+						<div class="section indepth_juanes_section" data-anchor="quien-soy4">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/4.png" alt="1"></div>
 								<div class="indepth_juan_text">
@@ -71,7 +81,7 @@ No llores por Messi, Argentina…
 								</div>
 							</div>
 						</div>
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy5">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/5.png" alt="1"></div>
 								<div class="indepth_juan_text">
@@ -82,7 +92,7 @@ desde ese día las fiestas en Querétaro son de lo mejor…
 							</div>
 						</div>
 						
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy6">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/6.png" alt="1"></div>
 								<div class="indepth_juan_text">
@@ -93,7 +103,7 @@ Si no se actualiza, es porque no juega…
 							</div>
 						</div>
 						
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy7">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img h_juan"><img src="images/Portada/7.png" alt="1"></div>
 								<div class="indepth_juan_text">He sido frank underwood, Freddy Krueger, el Chapulín Colorado
@@ -101,7 +111,7 @@ y hasta un duende celebrando San Patricio.</div>
 							</div>
 						</div>
 						
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy8">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/8.png" alt="1"></div>
 								<div class="indepth_juan_text">También he sufrido.<br>
@@ -111,7 +121,7 @@ guardé luto por el hijo de Hugo y por el Perro Aguayo.
 							</div>
 						</div>
 						
-						<div class="section indepth_juanes_section">
+						<div class="section indepth_juanes_section" data-anchor="quien-soy9">
 							<div class="indepth_juan_container">
 								<div class="indepth_juan_img"><img src="images/Portada/9.png" alt="1"></div>
 								<div class="indepth_juan_text">Estoy por cumplir un año…<br>
@@ -121,13 +131,13 @@ y todos los que han decidido visitarme…</div>
 							</div>
 						</div>
 						
-						<div class="section indepth_juan_full">
+						<div class="section " id="indepth_juan_full" data-anchor="mis-visitantes">
 							<div class="indepth_full_img" id="indepth_visitantes">
 								
 							</div>
 						</div>
 						
-						<div class="section">
+						<div class="section" data-anchor="indepth-numeros" id="indepth_numeros">
 							<div id="indepth_page2" class="indepth_page indepth_page_content">
 								<div class="indepth_numero_title">Mis números</div>
 								<div class="indepth_mes_numeros">Marzo 2015</div>
@@ -224,53 +234,10 @@ y todos los que han decidido visitarme…</div>
 
 						</div>
 						
-						<div class="section">
-							<div class="indepth_juanfluencers_cont">
-								<div class="indepth_juanfluencers_red arriba">
-									<div class="indepth_gif_cont">
-										<div class="indepth_gif_circle" id="indepth_gif_1">
-											<img src="images/Juanfluencers/juanfluencers_1.gif" alt="juanfluencers_1" >
-										</div>
-									
-										<div class="indepth_gif_circle" id="indepth_gif_2">
-											<img src="images/Juanfluencers/juanfluencers_7.gif" alt="juanfluencers_1" >
-										</div>
-										
-										<div class="indepth_gif_circle" id="indepth_gif_3">
-											<img src="images/Juanfluencers/juanfluencers_5.gif" alt="juanfluencers_1" >
-										</div>
-										
-										<div class="indepth_gif_circle" id="indepth_gif_4">
-											<img src="images/Juanfluencers/juanfluencers_2.gif" alt="juanfluencers_1" >
-										</div>
-										
-										<div class="indepth_gif_circle" id="indepth_gif_5">
-											<img src="images/Juanfluencers/juanfluencers_6.gif" alt="juanfluencers_1" >
-										</div>
-										
-										<div class="indepth_gif_circle" id="indepth_gif_6">
-											<img src="images/Juanfluencers/juanfluencers_4.gif" alt="juanfluencers_1" >
-										</div>
-										<div class="indepth_gif_circle" id="indepth_gif_7">
-											<img src="images/Juanfluencers/juanfluencers_3.gif" alt="juanfluencers_1" >
-										</div>
-									</div>
-								</div>
-								<div class="indepth_juanfluencers_content">
-									<div class="indepth_juanfluncers_container">
-										<div class="indepth_juanfluencers_text">
-										<div class="indepth_juanfluencers_title">juanfluencers</div>
-										Voces distinguidas que amplifican el alcance de mis historias y las ponen ante los ojos de mis visitantes</div>
-									</div>
-								</div>
-								<div class="indepth_juanfluencers_red abajo"></div>
-							</div>
-						</div>
-						
-						<div class="section">
-							<div class="indepth_numero_title">juan lab</div>
+						<div class="section" data-anchor="indepth-juan-lab" id="indepth_juan_lab">
+							<div class="indepth_lab_title">juan lab</div>
 							<br><br>
-							<div class="indepth_numero_text">
+							<div class="indepth_lab1_text">
 								Mis creativos, storytellers y analistas experimentan hasta desarrollar la formula del éxito. <br>
 								En mi laboratorio la mejor es siempre la que está por llegar
 								
@@ -297,6 +264,10 @@ y todos los que han decidido visitarme…</div>
 									<div class="indepth_lab_text">Publicación</div>
 								</div>
 							</div>
+						</div>
+						
+						<div class="section" data-anchor="indepth-formatos" id="indepth_formatos">
+							
 							
 							<div class="indepth_numero_title">Formatos</div>
 							<div class="indepth_formato_cont">
@@ -478,35 +449,146 @@ tradicionales te entrego el mejor resultado.</div>
 									<div class="indepth_icon_ver" num="12"></div>
 								</div>
 								
-								<div class="indepth_formato_item" id="indepth_formato_item_13" num="13">
-									<div class="indepth_formato_img">
+				
 										
 									</div>
-									<div class="indepth_text_cont">
-										<div class="indepth_text_cont_in">
-											<div class="indepth_fotmato_title">Juanpartner</div>
-											<div class="indepth_formato_medidas">Variable</div>
-											<div class="indepth_formato_texto">Si tu marca genera contenidos deportivos de alto impacto para mis visitantes, eres 
-bienvenido. Sé parte de mi equipo creativo presentando tus mejores historias.</div>
-										</div>
+									<div class="indepth_Juanpartner_cont">
+											<div class="indepth_Juanpartner_title">Juanpartner</div>
+											<div class="indepth_Juanpartner_texto">Si tu marca genera contenidos deportivos de alto impacto para mis visitantes, eres 
+bienvenido.<br> Sé parte de mi equipo creativo presentando tus mejores historias.</div>
+											<img class="indepth_Juanpartner_img" src="images/Formatos/juanpartner.png" alt="juanpartner">
 									</div>
-									<div class="indepth_icon_ver" num="13"></div>
-								</div>
+						
 								
 
+						</div>
+
+							
+						
+						<div class="section" data-anchor="indepth-influencers" id="indepth_influencers">
+							<div class="indepth_juanfluencers_cont">
+								<div class="indepth_juanfluencers_red arriba">
+									<div class="indepth_gif_cont">
+										<div class="indepth_gif_circle" id="indepth_gif_1">
+											<img src="images/Juanfluencers/juanfluencers_1.gif" alt="juanfluencers_1" >
+										</div>
+									
+										<div class="indepth_gif_circle" id="indepth_gif_2">
+											<img src="images/Juanfluencers/juanfluencers_7.gif" alt="juanfluencers_1" >
+										</div>
+										
+										<div class="indepth_gif_circle" id="indepth_gif_3">
+											<img src="images/Juanfluencers/juanfluencers_5.gif" alt="juanfluencers_1" >
+										</div>
+										
+										<div class="indepth_gif_circle" id="indepth_gif_4">
+											<img src="images/Juanfluencers/juanfluencers_2.gif" alt="juanfluencers_1" >
+										</div>
+										
+										<div class="indepth_gif_circle" id="indepth_gif_5">
+											<img src="images/Juanfluencers/juanfluencers_6.gif" alt="juanfluencers_1" >
+										</div>
+										
+										<div class="indepth_gif_circle" id="indepth_gif_6">
+											<img src="images/Juanfluencers/juanfluencers_4.gif" alt="juanfluencers_1" >
+										</div>
+										<div class="indepth_gif_circle" id="indepth_gif_7">
+											<img src="images/Juanfluencers/juanfluencers_3.gif" alt="juanfluencers_1" >
+										</div>
+									</div>
+								</div>
+								<div class="indepth_juanfluencers_content">
+									<div class="indepth_juanfluncers_container">
+										<div class="indepth_juanfluencers_text">
+										<div class="indepth_juanfluencers_title">juanfluencers</div>
+										Voces distinguidas que amplifican el alcance de mis historias y las ponen ante los ojos de mis visitantes</div>
+									</div>
+								</div>
+							</div>
+							<div id="indepth_juanfluencer_back"></div>
+						</div>
+						
+						<div class="section" data-anchor="indepth-showroom" id="indepth_showroom">
+							<div class="indepth_disponible_title indepth_numero_title">
+								<div class="indepth_disponible_title_line left "><div></div></div>Showroom<div class="indepth_disponible_title_line right"><div></div></div>
+							</div>
+							<div class="indepth_showroom_content">
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/1.jpg">
+								</div></a>
 								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/2.jpg">
+								</div></a>
 								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/3.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/4.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/5.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/6.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/7.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/8.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/9.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/10.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/11.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/12.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/13.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/14.jpg">
+								</div></a>
+								
+								<a href="" target="_blank" ><div class="indepth_showroom_item">
+									<img src="images/Showroom/15.jpg">
+								</div></a>
 								
 								
 							</div>
-							
-							
-							
-							
-							
-							
+							<div class="indepth_juanificate">
+								<div class="indepth_juanificate_picos"></div>
+								<div class="indepth_juanificate_content">
+									<div class="indepth_juanificate_in">
+										<div class="indepth_juanificate_title">Juanifica tu marca</div>
+										<div class="indepth_juanificate_line"></div>
+										<div class="indepth_juanificate_ecribe">Escribe a</div>
+										<a href="mailto:quierocon@juanfutbol.com"><div class="indepth_juanifiacte_mail">quierocon@juanfutbol.com</div></a>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
+						
+					
 					
 			</div>
 			
@@ -520,38 +602,32 @@ bienvenido. Sé parte de mi equipo creativo presentando tus mejores historias.</
 		<div class="indepth_formato_modal">
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_1">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Featured.jpg" alt="Featured" >
 										
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_2">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Billboard.jpg" alt="Billboard" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont h" id="indepth_fomato_3">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Listicle.jpg" alt="Listicle" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont h " id="indepth_fomato_4">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Infografia.jpg" alt="Infografia" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_5">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/LoQuiero.jpg" alt="LoQuiero" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont h" id="indepth_fomato_6">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Slider.jpg" alt="Slider" >
 									</div>
 								</div>
 								
@@ -563,43 +639,31 @@ bienvenido. Sé parte de mi equipo creativo presentando tus mejores historias.</
 								
 								<div class="indepth_formato_img_cont h" id="indepth_fomato_8">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Splash.jpg" alt="Splash" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_9">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Indepth.jpg" alt="Indepth" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_10">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Native.jpg" alt="Native" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_11">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Postal.jpg" alt="Postal" >
 									</div>
 								</div>
 								
 								<div class="indepth_formato_img_cont w" id="indepth_fomato_12">
 									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Tradicional.jpg" alt="Tradicional">
 									</div>
 								</div>
-								
-								<div class="indepth_formato_img_cont w" id="indepth_fomato_13">
-									<div class="indepth_formato_modal_img" >
-										<img src="images/Formatos/Ejemplos/Billboard.jpg" alt="Billboard" >
-									</div>
-								</div>
-								
-							
+
 							</div>
-		<script src="js/indepth.js?v=1.0"></script>	
+		<script src="js/indepth.js?v=1.1"></script>	
 		
 			
 		</div>

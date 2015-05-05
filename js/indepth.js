@@ -6,7 +6,62 @@ var r=0;
 $("#indepth_juanes").css("height",h+"px");
 $(".indepth_formato_modal").css("height",h+"px")
 $(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(h*.99)+"px");
+$("#indepth_juanfluencer_back").css("height",(h/2)+"px");
 
+
+
+
+
+$("#myMenu").hover(
+	function(){
+		
+		$(".indepth_menu_bar_cont").animate({
+			width: "116px"
+		},500);
+	},
+	function(){
+		$(".indepth_menu_bar_cont").animate({
+			width: "0"
+		},500);
+		
+		
+	}
+);
+
+
+
+/*$("#myMenu li").hover(
+	function(){
+		
+		$(this).find(".indepth_menu_ball").animate({
+			opacity: .8
+		},500);
+		
+		$("li.active").find(".indepth_menu_ball").animate({
+			opacity: 1
+		},0);
+		
+		
+		
+	},
+	function(){
+		$(this).find(".indepth_menu_ball").animate({
+			opacity: .3
+		},500);
+		
+		$("li.active").find(".indepth_menu_ball").css({
+			opacity: 1
+		});
+		
+		
+	}
+);*/
+
+/*$('.section').waypoint(function(direction) {
+	
+	var num=$(this).index();
+		console.log(num);
+});*/
 
 
 $(document).on("click",".indepth_formato_item",function(){
@@ -29,11 +84,32 @@ $(document).on("click",".indepth_formato_modal",function(){
 
 
 $(document).ready(function() {
-    $('#indepth_juanes').fullpage({
-	    menu: true,
+    $('#indepth_page1').fullpage({
+	    menu: '#myMenu',
+		anchors: ['quien-soy','quien-soy2','quien-soy3','quien-soy4','quien-soy5','quien-soy6','quien-soy7','quien-soy8','quien-soy9','mis-visitantes','indepth-numeros','indepth-juan-lab','indepth-formatos','indepth-influencers','indepth-showroom'],
 	    scrollOverflow: true,
 	    normalScrollElements: '.indepth_formato_img_cont, .indepth_formato_modal',
-	    scrollbar: true
+	    scrollbar: true,
+	    scrollingSpeed: 1000,
+	    afterLoad: function(anchorLink, index){
+            var leavingSection = $(this);
+			
+			console.log(index);
+			
+            //after leaving section 2
+            if(index <= 9 ){
+	            console.log("down "+index);
+                $("#indepth_quien").addClass("iactive");
+            }else{
+	            $("#indepth_quien").removeClass("iactive");
+            }
+            
+
+            
+            
+
+            
+        }
     });
 });
 

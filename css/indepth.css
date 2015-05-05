@@ -70,24 +70,122 @@ body{
 	font-weight: 700;
 }
 
-
-#indepth_juanes{
-	width: 100%;
-	height: 100%;
-	font-family: 'Roboto Condensed';
-	font-size: 16px;
-}
-
 .indepth_juanes_section{
 	width: 100%;
 	background: #0a0a0a;
 	height: 100%;
 	display: table;
+	font-family: 'Roboto Condensed';
 	text-align: center;
+	font-size: 16px;
 }
 
 .indepth_juan_container{
 	
+}
+
+#myMenu{
+	position: fixed;
+  top: 30%;
+  left: 5%;
+  height: 40px;
+  z-index: 70;
+  padding: 0;
+  margin: 0;
+  display: table;
+}
+
+#myMenu ul{
+	display: table;
+}
+
+#myMenu li{
+	display: table;
+	margin: 9px 0;
+	overflow: hidden;
+	
+}
+
+.indepth_menu_bar_cont{
+	float: left;
+	width: 0px;
+	height: 23px;
+	overflow: hidden;
+}
+
+
+.indepth_indepth_menu_bar{
+	width: 100px;
+	height: 23px;
+	background-image: url(../images/Scrollmark/Label.png);
+	float: left;
+	font-size: 13px;
+	color: white;
+	font-family: 'Roboto condensed';
+	padding-left: 16px;
+	line-height: 23px;
+	text-transform: uppercase;
+	opacity: .8;
+}
+
+.indepth_menu_ball{
+	width: 12px;
+	height: 12px;
+	margin: 5px 2px; 
+	background-color: #8eb10d;
+	float: left;
+	border-radius: 50%;
+	opacity: .3;
+}
+
+li.active .indepth_menu_ball{
+	opacity: 1;
+}
+
+li.active .indepth_indepth_menu_bar{
+	opacity: 1;
+}
+
+li.active .indepth_menu_bar_cont{
+	-webkit-animation: indepth_menu_animation 2s 1; /* Safari 4+ */
+	-moz-animation:    indepth_menu_animation 2s 1; /* Fx 5+ */
+	-o-animation:      indepth_menu_animation 2s 1; /* Opera 12+ */
+	animation:         indepth_menu_animation 2s 1; 
+}
+
+#indepth_quien.iactive{
+	opacity: 1;
+}
+
+@-webkit-keyframes indepth_menu_animation {
+  0%   { width: 0; }
+  15%  { width: 116px;}
+  75%  { width: 116px;}
+  100% { width: 0; }
+}
+@-moz-keyframes indepth_menu_animation {
+  0%   { width: 0; }
+  25%  { width: 116px;}
+  50%  { width: 116px;}
+  100% { width: 0; }
+}
+@-o-keyframes indepth_menu_animation {
+  0%   { width: 0; }
+  25%  { width: 116px;}
+  50%  { width: 116px;}
+  100% { width: 0; }
+}
+@keyframes indepth_menu_animation {
+  0%   { width: 0; }
+  25%  { width: 116px;}
+  50%  { width: 116px;}
+  100% { width: 0; }
+}
+
+
+
+li .indepth_menu_ball:hover{
+	opacity: .8;
 }
 
 .indepth_juan_img{
@@ -419,6 +517,18 @@ body{
 	font-size: 50px;
 }
 
+#indepth_juanfluencer_back{
+	background-image: url(../images/Juanfluencers/pixel.png);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+}
+
+.indepth_juanfluencers_cont{
+	z-index: 10;
+	position: relative;
+}
 
 .indepth_juanfluencers_content{
 	width: 100%;
@@ -549,7 +659,10 @@ body{
 	text-transform: uppercase;
 	font-size: 20px;
 	text-align: center;
+	color: white;
 }
+
+
 
 
 .indepth_formato_cont{
@@ -728,6 +841,30 @@ body{
 	background-image: url(../images/Formatos/VerEjemplo_hover.png);
 }
 
+#indepth_juan_lab{
+	background-image: url(../images/Juanfluencers/pixel.png);
+}
+
+.indepth_lab_title{
+	color: white;
+	font-family: 'Abel';
+	text-align: center;
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: 300;
+	display: inline-block;
+	margin-top: 30px;
+	width: 100%;
+}
+ 
+ .indepth_lab1_text{
+	color: white;
+	font-family: 'Abel';
+	text-align: center;
+	font-size: 16px;
+}
+
+
 
 .indepth_formato_modal{
 	width: 100%;
@@ -744,10 +881,8 @@ body{
 .indepth_formato_img_cont{
 	display: none;
 	vertical-align: middle;
-		overflow-y: scroll;
-		position: relative;
-
-	
+	overflow-y: scroll;
+	position: relative;
 }
 
 .indepth_formato_modal_img_h{
@@ -756,79 +891,210 @@ body{
 
 .indepth_formato_modal_img{
 	text-align: center;
-	max-width: 90%;
+	max-width: 96%;
+	width: 1000px;
+	height: 98%;
+	margin: auto;
+	max-height: 900px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+#indepth_fomato_1 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Billboard.jpg);
+}
+
+#indepth_fomato_2 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Billboard.jpg);
+}
+
+#indepth_fomato_3 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Listicle.jpg);
+}
+
+#indepth_fomato_4 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Infografia.jpg);
+}
+
+#indepth_fomato_5 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/LoQuiero.jpg);
+}
+
+#indepth_fomato_6 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Slider.jpg);
+}
+
+#indepth_fomato_7 .indepth_formato_modal_img{
+	background-image: ;
+}
+
+#indepth_fomato_8 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Splash.jpg);
+}
+#indepth_fomato_9 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Indepth.jpg);
+}
+
+#indepth_fomato_10 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Native.jpg);
+}
+
+#indepth_fomato_11 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Postal.jpg);
+}
+#indepth_fomato_12 .indepth_formato_modal_img{
+	background-image: url(../images/Formatos/Ejemplos/Tradicional.jpg);
+}
+#indepth_fomato_13 .indepth_formato_modal_img{
+	background-image: ;
+}
+
+.indepth_Juanpartner_cont{
+	width: 96%;
+	text-align: center;
+	max-width: 650px;
+	margin: 40px auto;
+	display: table;
+	
+}
+
+.indepth_Juanpartner_title{
+	font-size: 26px;
+	color: #3f3f3f;
+	text-transform: uppercase;
+	margin-top: 30px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	
+}
+
+.indepth_Juanpartner_texto{
+	font-size: 16px;
+	color: #808183;
+	margin-bottom: 60px;
+}
+
+.indepth_Juanpartner_img{
+	width: 208px;
+	height: auto;
+	margin: auto;
+}
+
+
+
+#indepth_showroom{
+	background-image: url(../images/Juanfluencers/pixel.png);
+
+}
+
+.indepth_showroom_content{
+	max-width: 960px;
+	margin: 50px auto;
+	display: table;
+}
+
+.indepth_showroom_item{
+	width: 316px;
+	height: 236px;
+	float: left;
+	margin: 3px 2px;
+}
+
+.indepth_showroom_item:hover{
+	opacity: .8;
+}
+
+.indepth_disponible_title_line{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 39%;
+	display: table;
+	margin-top: 20px;
+}
+
+.indepth_disponible_title_line.left{
+	left: 0px;
+}
+
+.indepth_disponible_title_line.right{
+	right: 0px;
+}
+
+.indepth_disponible_title_line div{
+	width: 100%;
+	height: 2px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #9bc512;
+}
+
+.indepth_disponible_title{
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
 	display: table;
 	margin: auto;
-	max-height: 90%;
+	position: relative;
+	color: white;
+	margin-top: 60px;
 }
 
-.indepth_formato_img_cont.h .indepth_formato_modal_img{
-	display: block;
-}
-
-.indepth_formato_img_cont.w .indepth_formato_modal_img img{
+.indepth_juanificate_picos{
+	height: 16px;
 	width: 100%;
-} 
-
-.indepth_formato_img_cont.h .indepth_formato_modal_img img{
-	height: 100%;
-	width: auto;
+	background-image: url(../images/Juanificate/Picos.png);
 }
 
-
-
- #indepth_ver_texto{
-	display: inline-block;
-	padding: 3px 15px;
-	 background-color: rgba(0,0,0,0.25);
-	 border: 1px solid #FFF;
-	 color: #FFF;
-	 margin-top: 12px;
-	 cursor: pointer;
-	 font-weight: 500;
-	 font-size: 10px;
-	 border-radius: 5px;
-	 text-align: center;
-}
-
-#indepth_ver_texto:hover{
-	background-color: rgba(233,233,233,0.15);
-}
-
-#indepth_cover .indepth_parallax_back{
-	background-image: url(../images/portada.jpg);
-	background-position: right top;
-	background-color: white;
-	background-size: cover;
-}
-
-#indepth_cover .indepth_cover_back_body{
-	position: absolute;
-	bottom: 15%;
-	background:#2E7294;
-	padding: 20px 0;
-	padding: 10px 35px;
-	margin-left: 2%;
-}
-
-#indepth_cover .indepth_title{
-	font-size:55px;
-	color:#FFF;
-	text-transform: uppercase;
-	font-weight: 700;
-	float: left;
+.indepth_juanificate_content{
+	background-color: #a6cf0c;
+	display: table;
+	width: 100%;
 	color: white;
 }
 
-#indepth_cover .indepth_subtitle{
-	font-size:25px;
-	color:#FFF;
-	font-weight: 400;
-	margin-left: 20px;
-	letter-spacing: 1.7656px;
-	text-transform: uppercase;
-	margin-top: 5px;
+.indepth_juanificate_in{
+	display: table;
+	margin: 60px auto;
+	text-align: center;
 }
+
+.indepth_juanificate_title{
+	font-family: 'Abel';
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.indepth_juanificate_line{
+	height: 1px;
+	margin: 20px auto;
+	width: 35px;
+	background-color: #81b009;
+}
+
+.indepth_juanificate_ecribe, .indepth_juanifiacte_mail{
+	font-size: 20px;
+	font-family: 'Roboto condensed';
+	color: white;
+	text-decoration: none;
+	font-variant: normal;
+}
+
+.indepth_juanificate_in a {
+	text-decoration: none;
+}
+
+
+.indepth_juanifiacte_mail{
+	margin-top: 5px;
+	padding-bottom: 30px;
+	background-image: url(../images/Juanificate/Email.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
 
 
 /****social*****/
@@ -882,10 +1148,6 @@ body{
 	font-size: 1em;
 }
 
-.indepth_page_infografia{
-	
-}
-
 .indepth_page_infografia .indepth_page_body{
 	text-align: center;
 }
@@ -936,33 +1198,6 @@ body{
 	padding: 0 30px;
 }
 
-.indepth_text_container_left{
-	float: left;
-	margin-left: 10%;
-	
-}
-.indepth_text_container_r{
-	float: right;
-	margin-right: 10%;
-	text-align: right;
-}
-
-
-.indepth_break .indepth_text{
-	font-size:40px;
-	font-weight: 300;
-	line-height: 54px;
-	color: #fff; /* color de la fuente*/
-	max-width:420px;
-	display: table-cell;
-	vertical-align: middle;		
-}
-
-.indepth_break .indepth_title{
-	font-size:56px;
-	text-transform: uppercase;
-	font-weight: 700;
-}
 
 
 .indepth_parallax_back {
@@ -976,90 +1211,8 @@ body{
 }
 
 
-.indepth_cuadricula{
-	width: 600px;
-	margin: 30px auto 10px;
-	display: table;
-}
-
-.indepth_cuadricula .indepth_cuadricula_fila{
-	width: 100%;
-	margin-bottom: 20px;
-	display: inline-block;
-}
-
-.indetpth_cuadricula_content{
-	width: 200px;
-	float: left;
-}
-
-.indepth_cuadricula_imagen{
-	width: 100px;
-	margin: auto;
-	height: 154px;
-	overflow: hidden;
-}
-
-.indepth_cuadricula_imagen img{
-	width: 100%;
-}
-
-.indepth_page_infografia img{
-	width: 640px;
-	margin: auto;
-}
-
-.indepth_libros_pie{
-	color: white;
-	font-family: 'roboto';
-	font-size: 12px;
-	padding: 5px 10px;
-	text-align: right;
-	background-color: #393939;
-	
-}
-
-.indepth_cuadricula_text{
-	text-align: center;
-	margin: 10px auto;
-	text-transform: uppercase;
-}
-
-.indepth_image_left{
-	float: left;
-	margin-right: 20px;
-	margin-top: 5px;
-	margin-bottom: 20px;
-	text-align: center;
-	width: 400px;
-}
-
-.indepth_image_left img{
-	width: 100%;
-}
-
-.indepth_image_r{
-	float: right ;
-	width: 350px;
-margin-left: 20px;
-margin-top: 15px;
-}
-
-.indepth_image_r img{
-	width: 100%;
-}
 
 
-
-
-
-#indepth_page1 .indepth_text{
-	color: white;
-}
-
-#indepth_page1 .indepth_quote{
-	color: white;
-}
 
  .indepth_quote{
 	font-family: 'Roboto';

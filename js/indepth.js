@@ -86,6 +86,10 @@ $(document).on("click",".indepth_formato_modal",function(){
 
 
 $(document).ready(function() {
+	
+	
+	
+	
     $('#indepth_page1').fullpage({
 	    menu: '#myMenu',
 		anchors: ['quien-soy','quien-soy2','quien-soy3','quien-soy4','quien-soy5','quien-soy6','quien-soy7','quien-soy8','quien-soy9','mis-visitantes','indepth-numeros','indepth-juan-lab','indepth-formatos','indepth-influencers','indepth-showroom','juanificate'],
@@ -150,6 +154,12 @@ var zoom = function(jornada, x, y, num){
 
 
 window.onload = function() {
+	var size_ball=150;
+	if(w<=710){
+		 size_ball=120;
+	}
+	
+	
 	<!--  selecciono la clase javascript -->
     var javascript = document.querySelector('.mexico');
     new EasyPieChart(javascript, {
@@ -158,7 +168,7 @@ window.onload = function() {
 			<!-- aumento la longitud de las lineas de la gráfica -->
 			scaleLength:0,
 			<!-- aumento el tamaño de la gráfica -->
-			size:150,
+			size:size_ball,
 			barColor:'#1e2328',
 			trackColor: "#d4ced1",
 			lineWidth: 7,
@@ -172,7 +182,7 @@ window.onload = function() {
     new EasyPieChart(html5, {
 			animate: ({ duration: 2000, enabled: true }),
 			scaleLength:0,
-			size:150,
+			size:size_ball,
 			barColor:'#1e2328',
 			trackColor: "#d4ced1",
 			lineWidth: 6,
@@ -185,7 +195,7 @@ window.onload = function() {
     new EasyPieChart(css, {
 			animate: ({ duration: 3000, enabled: true }),
 			scaleLength:0,
-			size:150,
+			size:size_ball,
 			barColor:'#1e2328',
 			trackColor: "#d4ced1",
 			lineWidth: 5,

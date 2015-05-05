@@ -261,7 +261,7 @@ li .indepth_menu_ball:hover{
 }
 
 .indepth_mes_numeros{
-	font-size: 'Abel';
+	font-family: 'Abel';
 	text-align: center;
 	font-size: 42px;
 	color: #19262b;
@@ -322,7 +322,7 @@ li .indepth_menu_ball:hover{
   position: relative;
   display: inline-block;
   width: 146px;
-  height: 276px;
+  height: 246px;
   text-align: center;
   margin:auto 55px;
   font-weight:bold;
@@ -350,7 +350,7 @@ li .indepth_menu_ball:hover{
   z-index: 2;
   position: absolute;
   bottom: 0px;
-  font-size: 90px;
+  font-size: 52px;
   font-family: 'Roboto Condensed';
   width: 100%;
   left: 0;
@@ -397,7 +397,7 @@ li .indepth_menu_ball:hover{
 	color: white;
 	line-height: 130px;
 	text-align: center;
-	font-size: 36px;
+	font-size: 30px;
 	font-family: 'Roboto Condensed';
 	font-weight: 300;
 	margin: auto;
@@ -490,7 +490,7 @@ li .indepth_menu_ball:hover{
 	width: 280px;
 	height: 182px;
 	line-height: 182px;
-	font-size: 44px;
+	font-size: 52px;
 	
 	background-repeat: no-repeat;
 }
@@ -532,7 +532,7 @@ li .indepth_menu_ball:hover{
 .indepth_redes_text{
 	text-align: center;
 	margin-top: 30px;
-	font-size: 50px;
+	font-size: 52px;
 }
 
 #indepth_juanfluencer_back{
@@ -917,8 +917,18 @@ li .indepth_menu_ball:hover{
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
+	display: table;
 }
 
+.embed-container { position: relative; padding-bottom: 66.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.indepth_video{
+	display: table-cell;
+	vertical-align: middle;
+	width: 96%;
+	margin: auto;
+	max-width: 600px;
+}
 
 #indepth_fomato_1 .indepth_formato_modal_img{
 	background-image: url(../images/Formatos/Ejemplos/Featured.jpg);
@@ -1128,14 +1138,16 @@ li .indepth_menu_ball:hover{
 }
 
 #section_juanificate #indepth_juanificate_back{
-		background-color: #a6cf0c;
-	  width: 100%;
-	  position: absolute;
-	  bottom: 0;
-	  z-index: 2;
+	background-color: #a6cf0c;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
 }
 
-
+#indepth_juan_full_movil{
+	display: none;
+}
 
 /****social*****/
 .indepth_home-element-social div{
@@ -1396,6 +1408,10 @@ li .indepth_menu_ball:hover{
 		right:  0;
 		bottom:90px;
 	}
+	
+	.indepth_formato_modal_img{
+		width: 100%;
+	}
 
 }
 
@@ -1426,25 +1442,36 @@ li .indepth_menu_ball:hover{
 	max-width: 700px;
 }
 
-.indepth_dispositivo{
-	width: auto;
-	display: table;
+
+.indepth_dispositivo.laptop {
+  width: 355px;
 }
 
-.indepth_dispositivo{
-	float: none;
+.indepth_dispositivo.tablet {
+  width: 210px;
 }
 
-.indepth_dispositivo_img{
-	position: relative;
-	display: table;
-	float: left;
+.indepth_dispositivos_cont{
+	width: 740px;
 }
 
+.indepth_dispositivo.movil .indepth_dispositivo_circulo {
+  width: 100px;
+  height: 100px;
+  transform: translate(-10px, 0px);
+  line-height: 100px;
+}
 
-.indepth_dispositivo_datos{
-	position: relative;
-	float: left;
+.indepth_dispositivos_cont{
+	height: 405px;
+}
+
+.indepth_dispositivo.movil .indepth_dispositivo_linea {
+  height: 90px;
+}
+
+.indepth_dispositivo.laptop .indepth_dispositivo_linea {
+  height: 55px;
 }
 
 
@@ -1457,7 +1484,7 @@ li .indepth_menu_ball:hover{
 }
 
 .indepth_full_img{
-	display: none;
+	background-image: none;
 }
 
 .visitantes_slide{
@@ -1472,8 +1499,15 @@ li .indepth_menu_ball:hover{
 
 
 
+#myMenu{
+	top: 10px;
+	left: 10px;
+}
 
 
+.indepth_chart{
+	width: 126px;
+}
 
 
 
@@ -1517,7 +1551,33 @@ li .indepth_menu_ball:hover{
 
 }
 
+@media screen and (max-width: 700px) {
+	
+}
+
 @media screen and (max-width: 640px) {
+	
+	.indepth_dispositivo{
+	width: auto;
+	display: table;
+}
+
+.indepth_dispositivo{
+	float: none;
+}
+
+.indepth_dispositivo_img{
+	position: relative;
+	display: table;
+	float: left;
+}
+
+
+.indepth_dispositivo_datos{
+	position: relative;
+	float: left;
+}
+	
 	
 	.indepth_showroom_content{
 		max-width: 320px;

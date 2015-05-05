@@ -100,9 +100,14 @@ $(document).ready(function() {
             if(index <= 9 ){
 	            console.log("down "+index);
                 $("#indepth_quien").addClass("iactive");
+                if(index==9){
+	                $("#myMenu li:first").addClass("active");
+                }
             }else{
 	            $("#indepth_quien").removeClass("iactive");
             }
+            
+            
             
 
             

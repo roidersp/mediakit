@@ -80,8 +80,26 @@ body{
 	font-size: 16px;
 }
 
+
+
 .indepth_juan_container{
-	
+	position: relative;
+}
+
+.indepth_juan_logo{
+	position: absolute;
+	top: 0;
+	transform: translateY(-120px);
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+
+.indepth_juanes_section{
+	background-image: url(../images/Portada/juanfutbol.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+	background-position: fixed;
 }
 
 #myMenu{

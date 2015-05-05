@@ -90,6 +90,9 @@ $(document).ready(function() {
 	    scrollOverflow: true,
 	    normalScrollElements: '.indepth_formato_img_cont, .indepth_formato_modal',
 	    scrollbar: true,
+	    slideSelector: '.visitantes_slide',
+	    slidesNavigation: true,
+	    controlArrows: false,
 	    scrollingSpeed: 1000,
 	    afterLoad: function(anchorLink, index){
             var leavingSection = $(this);

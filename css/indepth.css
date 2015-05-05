@@ -1092,6 +1092,10 @@ li .indepth_menu_ball:hover{
 	background-color: #81b009;
 }
 
+.visitantes_slide{
+	display: none;
+}
+
 .indepth_juanificate_ecribe, .indepth_juanifiacte_mail{
 	font-size: 20px;
 	font-family: 'Roboto condensed';
@@ -1232,132 +1236,10 @@ li .indepth_menu_ball:hover{
 
 
 
- .indepth_quote{
-	font-family: 'Roboto';
-	font-size: 25px;
-	color: #000;
-	/*border-bottom: 2px solid #000;
-	border-top: 2px solid #000;*/
-	padding: 10px 10px;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-}
-
-.indepth_quote_right{
-	width: 300px;
-	float: right;
-	margin: 10px 0 10px 15px;
-}
-
-.indepth_quote_left{
-	width: 300px;
-	float: left;
-	margin: 20px 15px 20px 0;
-}
-
-.indepth_quote_center{
-		width: 84%;
-		margin: 30px auto;
-		border-bottom:  3px solid black;
-		border-top: 3px solid black;
-		padding: 20px 3%;
-		
-}
-
-.indepth_quote_side{
-	font-size:21px;width:45%;margin:40px 0;
-	float: left;
-}
-
-
-.indepth_image_side{
-	width:45%;margin:0px;
-	float: left;
-}
-
-.indepth_image_side img{
-	width: 100%;
-}
-
+ 
 /****DINAMICO****/
 
-.indepth_page_uno{
-	background: white;
-}
-
-
-
-#indepth_break_1 .indepth_parallax_back{
-	background-image: url(../images/break3.jpg)
-}
-
-#indepth_break_2 .indepth_parallax_back{
-	background-image: url(../images/break1.jpg);
-}
-
-#indepth_break_3 .indepth_parallax_back{
-	background-image: url(../images/break2.jpg);
-}
-
-.indepth_image_movil{
-	display: none;
-}
-
-.indepth_image_1000{
-	max-width: 1000px;
-	margin: auto;
-	width: 100%;
-}
-
-
-.indepth_image_1000 img{
-	width: 100%;
-}
-
-.indepth_img_cir_cont{
-	max-width: 1000px;
-	width: 100%;
-	margin: auto;
-	
-}
-
-
-.indepth_img_cir{
-	width: 50%;
-	float: left;
-}
-
-.indepth_img_cir img{
-	width: 100%;
-}
-
-
-.indepth_quote_container{
-	width: 700px;
-	margin: auto;
-margin-bottom: 60px;
-margin-top: 60px;
-color: #878787;
-
-}
-
-.indepth_quote_container hr{
-	width: 50px;
-	margin: center;
-}
- .indepth_quote{
-	font-family: 'Roboto';
-	font-size: 25px;
-	/*border-bottom: 2px solid #000;
-	border-top: 2px solid #000;*/
-	text-transform: uppercase;
-	font-weight: 300;
-	text-align: center;
-	letter-spacing: 0.05em;
-		
-}
-
+.
 @media screen and (min-width: 1920px) {
 	#indepth_libros_container{
 		width: 1920px;
@@ -1499,146 +1381,138 @@ color: #878787;
 
 }
 
+@media screen and (max-width: 960px) {
+	
+.indepth_showroom_content{
+	max-width: 640px;
+}
+
+.indepth_disponible_title{
+	width: 640px;
+}
+
+.indepth_disponible_title_line{
+	width: 30%;
+}
+
+.indepth_lab_item{
+	width: 90px;
+}
+
+.indepth_lab_text{
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+.indepth_formato_cont{
+	max-width: 700px;
+}
+
+.indepth_dispositivo{
+	width: auto;
+	display: table;
+}
+
+.indepth_dispositivo{
+	float: none;
+}
+
+.indepth_dispositivo_img{
+	position: relative;
+	display: table;
+	float: left;
+}
+
+
+.indepth_dispositivo_datos{
+	position: relative;
+	float: left;
+}
+
+
+}
+
 @media screen and (max-width: 800px) {
 	
-	
-	#indepth_break_2 .indepth_parallax_back{
-		
-	}
-	
-	
-	
-#indepth_twitter_editor{
-	padding-left: 10px;
-}
-#indepth_twitter_editor iframe {
-	max-width: 280px;
+.visitantes_slide{
+	display: block;
 }
 
-
-.indepth_twitter_editor_header_caja{
-	width: 240px;
+.indepth_full_img{
+	display: none;
 }
 
-#indepth_mapa_title{
-	position: relative;
-	width:  300px;
-	margin: 0px auto;
-	top:0px;
-	left: 0px;
+.visitantes_slide{
+	background-image: url(../images/Visitantes/Fondo.jpg);
+	
+	
 }
 
-#indepth_mapa_title img{
+.indepth_formato_cont{
+	max-width: 640px;
+}
+
+
+
+
+
+
+
+
+.indepth_slider_img{
 	width: 100%;
-	margin: 0px 0px 15px 0;
+	height: 100%;
+	background-position: center center;
+	background-size:  auto 80%;
+	background-repeat: no-repeat;
+}
+
+#visitantes_slide1 .indepth_slider_img{
+	background-image: url(../images/Visitantes/1.png);
 	
 }
 
-
-
-
-.indepth_mapa_text_title{
-	font-size: 24px;
+#visitantes_slide2 .indepth_slider_img{
+	background-image: url(../images/Visitantes/2.png);
+	
 }
 
-#indepth_mapa_controles{
-	position: relative;
-	margin: 15px auto;
-	width: 201px;
-	bottom: 0;
-	right: 0;
+#visitantes_slide3 .indepth_slider_img{
+	background-image: url(../images/Visitantes/3.png);
+	
 }
 
-#indepth_mapa_controles li{
-	width: 34px;
-	margin-right: 40px;
+#visitantes_slide4 .indepth_slider_img{
+	background-image: url(../images/Visitantes/4.png);
+	
 }
 
+#visitantes_slide5 .indepth_slider_img{
+	background-image: url(../images/Visitantes/5.png);
+	
+}
 
-	.indepth_pages{
-		width: 100%;
-		max-width: 800px;	
-		min-width: 0px;
-	}
-
-	.indepth_page{
-		min-width: 0px;
-		width: 100%;
-		position: relative;
-		overflow: hidden;
-	}
+#visitantes_slide1 .indepth_slider_img{
+	background-image: url(../images/Visitantes/1.png);
 	
-	.indepth_page_body{
-		margin: 0 auto;
-	}
-	
-	#indepth_cover .indepth_titlle_container {
-		width: 100%;
-	}
-	
-	#indepth_cover .indepth_parallax_back{
-		background-size: auto 800px;
-		background-position: 50% 0;
-	}
-	
-	.indepth_page_infografia .indepth_page_body{
-		width: 100%;
-	}
-	
-	.indepth_break .indepth_page_body{
-		width: 100%;
-	}
-	#partidos{
-		width: 100%;
-	}
-	
-	#page_5 .indepth_break {
-		height: 560px;
-	}
-	
-	.indepth_page_infografia img{
-		width: 640px;
-	}
-
-	#info_controls img{
-		width: 100%;
-	}
-	
-	/*** dinamico **/
-	.indepth_break{
-		max-height: 700px;
-	}
-	
-	.indepth_break .indepth_parallax_back{
-		background-size: auto 100%;
-		background-attachment: scroll;
-	}
-	
-	#indepth_break_5 .indepth_parallax_back{
-		background-size: 1200px;
-		background-attachment: scroll;
-		height: 560px;
-	}
-	
-	.indepth_break .indepth_parallax_back .indepth_text_container{
-		padding: 0 10px;
-	}
-
-	
-	
-	#indepth_break_2 .indepth_parallax_back{
-		background-position: 30% 50%;
-	}
-
-
-	#indepth_break_1 .indepth_parallax_back{
-		background-position: 80% 50%;
-	}
-
+}
 
 }
 
 @media screen and (max-width: 640px) {
+	
+	.indepth_showroom_content{
+		max-width: 320px;
+	}
+	
+	.indepth_disponible_title{
+		width: 320px;
+	}
+	
+	.indepth_disponible_title_line{
+		width: 25%;
+	}
+	
 	#indepth_editor_profile .indepth_page_body{
 		width: 100%;
 		

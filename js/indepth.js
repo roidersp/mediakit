@@ -8,7 +8,7 @@ $(".indepth_formato_modal").css("height",h+"px")
 $(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(h*.99)+"px");
 $("#indepth_juanfluencer_back").css("height",(h/2)+"px");
 $("#indepth_juanificate_back").css("height",(h/2)+"px");
-$(".indepth_juanificate_content").css("padding",(h/4)+"px 0" );
+$(".indepth_juanificate_content").css("padding",(h/6)+"px 0" );
 
 
 

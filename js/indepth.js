@@ -7,6 +7,8 @@ $("#indepth_juanes").css("height",h+"px");
 $(".indepth_formato_modal").css("height",h+"px")
 $(".indepth_formato_img_cont.h .indepth_formato_modal_img ").css("height",(h*.99)+"px");
 $("#indepth_juanfluencer_back").css("height",(h/2)+"px");
+$("#indepth_juanificate_back").css("height",(h/2)+"px");
+$(".indepth_juanificate_content").css("padding",(h/4)+"px 0" );
 
 
 
@@ -86,7 +88,7 @@ $(document).on("click",".indepth_formato_modal",function(){
 $(document).ready(function() {
     $('#indepth_page1').fullpage({
 	    menu: '#myMenu',
-		anchors: ['quien-soy','quien-soy2','quien-soy3','quien-soy4','quien-soy5','quien-soy6','quien-soy7','quien-soy8','quien-soy9','mis-visitantes','indepth-numeros','indepth-juan-lab','indepth-formatos','indepth-influencers','indepth-showroom'],
+		anchors: ['quien-soy','quien-soy2','quien-soy3','quien-soy4','quien-soy5','quien-soy6','quien-soy7','quien-soy8','quien-soy9','mis-visitantes','indepth-numeros','indepth-juan-lab','indepth-formatos','indepth-influencers','indepth-showroom','juanificate'],
 	    scrollOverflow: true,
 	    normalScrollElements: '.indepth_formato_img_cont, .indepth_formato_modal',
 	    scrollbar: true,

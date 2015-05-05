@@ -1117,6 +1117,24 @@ li .indepth_menu_ball:hover{
 	background-repeat: no-repeat;
 }
 
+#section_juanificate{
+	background-image: url(../images/Juanfluencers/pixel.png);
+	
+}
+
+.indepth_juanificate{
+	z-index: 10;
+	position: relative;
+}
+
+#section_juanificate #indepth_juanificate_back{
+		background-color: #a6cf0c;
+	  width: 100%;
+	  position: absolute;
+	  bottom: 0;
+	  z-index: 2;
+}
+
 
 
 /****social*****/

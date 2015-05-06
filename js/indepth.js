@@ -88,6 +88,10 @@ $(document).on("click",".indepth_formato_img_cont",function(){
 	$(".indepth_formato_modal").css("display","none");
 });
 
+$(document).on("click",".indepth_formato_modal_img",function(){
+	$(".indepth_formato_modal").css("display","none");
+});
+
 
 
 $(document).ready(function() {

@@ -1651,6 +1651,13 @@ li .indepth_menu_ball:hover{
 	}
 	
 	
+	.indepth_formato_modal_img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-left: 2%;
+	}
+	
 	
 	
 	

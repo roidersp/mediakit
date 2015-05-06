@@ -1,4 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
+
+.indepth_formato_img_cont{
+	cursor: pointer;
+}
+
 body{
 	overflow: hidden;
 }
@@ -1648,6 +1653,10 @@ li .indepth_menu_ball:hover{
 	
 	.indepth_img_cir{
 		width: 100%;
+	}
+	
+	.indepth_formato_img_cont{
+		position: initial;
 	}
 	
 	

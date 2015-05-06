@@ -79,7 +79,12 @@ $(document).on("click",".indepth_formato_item",function(){
 });
 
 
-$(document).on("click","body",function(){
+$(document).on("click",".indepth_formato_modal",function(){
+	$(".indepth_formato_modal").css("display","none");
+});
+
+
+$(document).on("click",".indepth_formato_img_cont",function(){
 	$(".indepth_formato_modal").css("display","none");
 });
 

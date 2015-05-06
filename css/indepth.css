@@ -70,6 +70,10 @@ body{
 	font-weight: 700;
 }
 
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+	display: none;
+}
+
 .indepth_juanes_section{
 	width: 100%;
 	background: #0a0a0a;
@@ -1509,6 +1513,9 @@ li .indepth_menu_ball:hover{
 	width: 126px;
 }
 
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+	display: block;
+}
 
 
 .indepth_slider_img{

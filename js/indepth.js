@@ -79,7 +79,7 @@ $(document).on("click",".indepth_formato_item",function(){
 });
 
 
-$(document).on("click",".indepth_formato_modal",function(){
+$(document).on("click","body",function(){
 	$(".indepth_formato_modal").css("display","none");
 });
 

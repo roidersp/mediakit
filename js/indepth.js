@@ -73,7 +73,7 @@ $(document).on("click",".indepth_formato_item",function(){
 	$(".indepth_formato_modal").css("display","table");
 	
 	
-	
+	$(".indepth_formato_img_cont.w").css("height",(h-5)+"px");
 	
 	$("#indepth_fomato_"+r).css("display","table-cell");
 });
